@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NODUS - Un punto De Encuentro</title>
+    <link rel="icon" href="img/nodusv1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- cabecera -->
+    <header>
+        <nav class="wrap">
+            <div class="logo">
+                <h1>N</h1><img src="img/nodusv1.ico" alt="Logo NODUS" class="logo-ico">
+                <h1>DUS</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Inicio</a>
+                <a href="#features">Características</a>
+                <a href="#how">Cómo funciona</a>
+                <a href="#seguridad">Seguridad</a>
+                <a href="#faq">Preguntas</a>
+            </div>
+            <a href="#download" class="btn btn-primary">Descargar app</a>
+            <button class="menu-toggle">☰</button>
+        </nav>
+    </header>
+    <!-- seccion HERO -->
+    <section class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="wrap hero-grid">
+            <div>
+                <div class="eyebrow-badge"><span class="dot-live"></span> Conociendo gente real ahora mismo</div>
+                <h1>Conecta.<br>Planea.<br><span class="pink">Comparte.</span></h1>
+                <p class="lead">NODUS es la app para conocer personas reales, unirte a Nodos y crear planes que se
+                    convierten en experiencias.</p>
+                <div class="store-row">
+                    <!-- Google Play -->
+                    <div class="store-btn">
+                        <img class="store-icon-img"
+                            src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg"
+                            alt="Google Play">
+                        <div class="lines">
+                            <span class="top">DISPONIBLE EN</span>
+                            <span class="bottom">Google Play</span>
+                        </div>
+                    </div>
+
+                    <!-- App Store -->
+                    <div class="store-btn">
+                        <img class="store-icon-img"
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg"
+                            alt="App Store">
+                        <div class="lines">
+                            <span class="top">Consíguelo en el</span>
+                            <span class="bottom">App Store</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats-row">
+                    <div class="stat"><b>+100K</b><span>Usuarios</span></div>
+                    <div class="stat"><b>+50K</b><span>Conexiones reales</span></div>
+                    <div class="stat"><b>+10K</b><span>Nodos creados</span></div>
+                    <div class="stat"><b>4.8 ★</b><span>Calificación promedio</span></div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- seccion feature -->
+    <section class="feature-strip" id="caracteristicas">
+        <div class="wrap feature-grid">
+            <div class="feature-cell">
+                <svg class="feature-icon" viewBox="0 0 40 40" fill="none">
+                    <circle cx="14" cy="14" r="6" stroke="#ec1361" stroke-width="2" />
+                    <path d="M4 32c0-6 4.5-10 10-10s10 4 10 10" stroke="#ec1361" stroke-width="2" />
+                    <circle cx="28" cy="18" r="4" stroke="#ec1361" stroke-width="1.6" opacity=".6" />
+                </svg>
+                <h3>Perfiles reales</h3>
+                <p>Conoce personas auténticas y verifica su identidad.</p>
+            </div>
+            <div class="feature-cell">
+                <svg class="feature-icon" viewBox="0 0 40 40" fill="none">
+                    <circle cx="12" cy="14" r="5" stroke="#ec1361" stroke-width="2" />
+                    <circle cx="28" cy="14" r="5" stroke="#ec1361" stroke-width="2" />
+                    <circle cx="12" cy="28" r="5" stroke="#ec1361" stroke-width="2" />
+                    <circle cx="28" cy="28" r="5" stroke="#ec1361" stroke-width="2" />
+                </svg>
+                <h3>Nodos</h3>
+                <p>Únete a actividades y planes creados por la comunidad.</p>
+            </div>
+            <div class="feature-cell">
+                <svg class="feature-icon" viewBox="0 0 40 40" fill="none">
+                    <rect x="6" y="8" width="28" height="24" rx="4" stroke="#ec1361" stroke-width="2" />
+                    <path d="M6 16h28" stroke="#ec1361" stroke-width="2" />
+                    <path d="M13 4v6M27 4v6" stroke="#ec1361" stroke-width="2" />
+                </svg>
+                <h3>Planes reales</h3>
+                <p>Convierte tus ideas en encuentros memorables.</p>
+            </div>
+            <div class="feature-cell">
+                <svg class="feature-icon" viewBox="0 0 40 40" fill="none">
+                    <path d="M6 10h20a4 4 0 014 4v8a4 4 0 01-4 4H16l-8 6v-6a4 4 0 01-2-3.5V14a4 4 0 014-4z"
+                        stroke="#ec1361" stroke-width="2" stroke-linejoin="round" />
+                </svg>
+                <h3>Conexiones</h3>
+                <p>Conecta con personas que comparten tus intereses.</p>
+            </div>
+            <div class="feature-cell">
+                <svg class="feature-icon" viewBox="0 0 40 40" fill="none">
+                    <path d="M20 4l14 5v9c0 9-6 15.5-14 18-8-2.5-14-9-14-18V9l14-5z" stroke="#ec1361" stroke-width="2"
+                        stroke-linejoin="round" />
+                    <path d="M14 20l4 4 8-8" stroke="#ec1361" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <h3>Seguridad</h3>
+                <p>Verificación, reputación y un entorno seguro para todos.</p>
+            </div>
+        </div>
+    </section>
+    <!-- seccion showcase -->
+    <section class="showcase">
+        <div class="wrap">
+            <div class="showcase-top">
+                <div>
+                    <div class="showcase-eyebrow">Descubre todas las posibilidades</div>
+                    <h2>Más que una app,<br>una comunidad.</h2>
+                </div>
+                <p>Explora perfiles, únete a Nodos, crea planes y conecta con personas que realmente quieren compartir
+                    experiencias contigo.
+                    <br><br>
+                    <a href="#download" class="btn btn-primary">Descargar ahora</a>
+                </p>
+            </div>
+
+            <div class="scroller">
+                <div class="show-card">
+                    <div class="label">Descubre</div>
+                    <div class="sub">Perfiles reales</div>
+                    <div class="mini-phone">
+                        <div class="mini-screen">
+                            <div class="app-topbar"><span class="brand">Descubre</span>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="avatar-circle" style="width:120px;height:120px;"><span class="initials"
+                                    style="font-size:26px;">J</span></div>
+                            <div class="profile-name" style="font-size:14px;">Javiera, 24 <span class="check">✓</span>
+                            </div>
+                            <div class="profile-tags"><span class="tag">Café</span><span class="tag">Viajes</span></div>
+                            <div class="action-row" style="transform:scale(.85);">
+                                <div class="action-circle">✕</div>
+                                <div class="action-circle main">∞</div>
+                                <div class="action-circle">♡</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-card">
+                    <div class="label">Nodos</div>
+                    <div class="sub">Actividades cercanas</div>
+                    <div class="mini-phone">
+                        <div class="mini-screen">
+                            <div class="app-topbar"><span class="brand">Nodos</span>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="node-tabs"><span>Cercanos</span><span class="on">Populares</span></div>
+                            <div class="node-card">
+                                <div class="node-thumb"></div>
+                                <div class="node-info">
+                                    <div class="t1">Café &amp; Charla</div>
+                                    <div class="t2">2.4 km · 5/6</div>
+                                </div>
+                            </div>
+                            <div class="node-card">
+                                <div class="node-thumb"></div>
+                                <div class="node-info">
+                                    <div class="t1">Noche de Juegos</div>
+                                    <div class="t2">3.4 km · 6/8</div>
+                                </div>
+                            </div>
+                            <div class="node-card">
+                                <div class="node-thumb"></div>
+                                <div class="node-info">
+                                    <div class="t1">Senderismo</div>
+                                    <div class="t2">5.2 km · 4/8</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-card">
+                    <div class="label">Conexiones</div>
+                    <div class="sub">Matches reales</div>
+                    <div class="mini-phone">
+                        <div class="mini-screen">
+                            <div class="match-row">
+                                <div class="match-av a"
+                                    style="background:conic-gradient(from 120deg, var(--pink), #7a1fd6);"></div>
+                                <div class="match-av b"
+                                    style="background:conic-gradient(from 300deg, #2b7fff, var(--pink-2));"></div>
+                            </div>
+                            <div class="match-text">¡Conexión creada!</div>
+                            <div class="match-sub">Tú y Diego se gustan</div>
+                            <a href="#" class="btn btn-primary" style="margin-top:auto;width:100%;">Enviar mensaje</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-card">
+                    <div class="label">Mensajes</div>
+                    <div class="sub">Chats y planes</div>
+                    <div class="mini-phone">
+                        <div class="mini-screen">
+                            <div class="app-topbar"><span class="brand">Diego</span>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="chat-bubble them">¡Hola! ¿Te gusta el café?</div>
+                            <div class="chat-bubble me">¡Sí! ¿Quedamos por este finde?</div>
+                            <div class="chat-bubble them">Dale, me encantaría 😊</div>
+                            <div class="chat-input"><span>Escribe un mensaje...</span>
+                                <div class="send-btn"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-card">
+                    <div class="label">Perfil</div>
+                    <div class="sub">Personaliza tu info</div>
+                    <div class="mini-phone">
+                        <div class="mini-screen">
+                            <div class="app-topbar"><span class="brand">Perfil</span>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="avatar-circle" style="width:110px;height:110px;"><span class="initials"
+                                    style="font-size:24px;">J</span></div>
+                            <div class="profile-name" style="font-size:14px;">Javiera, 24 <span class="check">✓</span>
+                            </div>
+                            <p
+                                style="font-size:10.5px;color:var(--text-dim);text-align:center;margin-top:8px;line-height:1.5;">
+                                Diseñadora UX. Amante del buen café, los conciertos en vivo y las conversaciones
+                                profundas.</p>
+                            <div class="profile-tags" style="margin-top:12px;"><span class="tag">Música</span><span
+                                    class="tag">Café</span><span class="tag">Viajes</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-card">
+                    <div class="label">Reputación</div>
+                    <div class="sub">Construye confianza</div>
+                    <div class="mini-phone">
+                        <div class="mini-screen">
+                            <div class="app-topbar"><span class="brand">Reputación</span>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="rep-score">
+                                <div class="num">4.8</div>
+                                <div class="rep-stars">★★★★★</div>
+                                <div class="rep-sub">Excelente</div>
+                            </div>
+                            <div class="rep-grid">
+                                <div><strong>12</strong><span>Planes<br>completados</span></div>
+                                <div><strong>28</strong><span>Conexiones</span></div>
+                                <div><strong>15</strong><span>Reseñas<br>positivas</span></div>
+                            </div>
+                            <div class="review-item">
+                                <div class="av"></div>
+                                <div class="t"><b>Valentina</b><span>Muy buena onda y puntual 👍</span></div>
+                            </div>
+                            <div class="review-item">
+                                <div class="av"></div>
+                                <div class="t"><b>Marcos</b><span>Excelente compañera de plan</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seccion asi funciona -->
+    <section class="how" id="como-funciona">
+        <div class="wrap">
+            <h2>Así funciona <span class="pink">NODUS</span></h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none">
+                            <circle cx="9" cy="8" r="3.2" stroke="#ec1361" stroke-width="1.8" />
+                            <path d="M3 20c0-3.6 2.7-6 6-6s6 2.4 6 6" stroke="#ec1361" stroke-width="1.8" />
+                            <path d="M17 8v6M14 11h6" stroke="#ec1361" stroke-width="1.8" stroke-linecap="round" />
+                        </svg></div>
+                    <h4>1. Crea tu cuenta</h4>
+                    <p>Regístrate en segundos y completa tu perfil.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none">
+                            <circle cx="10.5" cy="10.5" r="6.5" stroke="#ec1361" stroke-width="1.8" />
+                            <path d="M20 20l-4.8-4.8" stroke="#ec1361" stroke-width="1.8" stroke-linecap="round" />
+                        </svg></div>
+                    <h4>2. Descubre</h4>
+                    <p>Explora personas y Nodos cercanos.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 20s-8-5-8-11a4.5 4.5 0 018-2.8A4.5 4.5 0 0120 9c0 6-8 11-8 11z"
+                                stroke="#ec1361" stroke-width="1.8" stroke-linejoin="round" />
+                        </svg></div>
+                    <h4>3. Conecta</h4>
+                    <p>Muestra interés y genera conexiones reales.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none">
+                            <path d="M4 6h16v10H9l-5 4V6z" stroke="#ec1361" stroke-width="1.8"
+                                stroke-linejoin="round" />
+                        </svg></div>
+                    <h4>4. Chatea</h4>
+                    <p>Habla, conoce mejor y organicen el plan.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none">
+                            <rect x="4" y="5" width="16" height="15" rx="2" stroke="#ec1361" stroke-width="1.8" />
+                            <path d="M4 9.5h16M8 3v4M16 3v4" stroke="#ec1361" stroke-width="1.8"
+                                stroke-linecap="round" />
+                        </svg></div>
+                    <h4>5. Planifica</h4>
+                    <p>Confirmen los detalles y el lugar.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="8.5" stroke="#ec1361" stroke-width="1.8" />
+                            <path d="M8.5 12.5l2.3 2.3L15.5 9.5" stroke="#ec1361" stroke-width="1.8"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></div>
+                    <h4>6. Encuéntrense</h4>
+                    <p>Vivan experiencias increíbles juntos.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-icon"><svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 3l2.6 5.6 6.1.6-4.6 4.1 1.3 6-5.4-3.2-5.4 3.2 1.3-6-4.6-4.1 6.1-.6L12 3z"
+                                stroke="#ec1361" stroke-width="1.8" stroke-linejoin="round" />
+                        </svg></div>
+                    <h4>7. Reputación</h4>
+                    <p>Califica y construye tu reputación en la app.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seccion testimonials -->
+    <section class="testimonials">
+        <div class="wrap">
+            <h2>Lo que dicen nuestros <span class="pink">usuarios</span></h2>
+            <div class="test-row">
+                <div class="arrow-btn">←</div>
+                <div class="test-cards">
+                    <div class="test-card">
+                        <p>"NODUS me ayudó a conocer personas increíbles y hoy tengo amigos con los que salgo todas las
+                            semanas."</p>
+                        <div class="test-user">
+                            <div class="test-av">👩</div>
+                            <div>
+                                <div class="name">Valentina R.</div>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <p>"Los Nodos son lo mejor, siempre hay planes interesantes y gente con buena onda."</p>
+                        <div class="test-user">
+                            <div class="test-av">🧑</div>
+                            <div>
+                                <div class="name">Diego M.</div>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-card">
+                        <p>"Me encanta lo segura que es la app, me siento tranquila conectando con personas reales."</p>
+                        <div class="test-user">
+                            <div class="test-av">👩</div>
+                            <div>
+                                <div class="name">Camila S.</div>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow-btn">→</div>
+            </div>
+        </div>
+    </section>
+    <!-- seccion DOWNLOAD-CTA -->
+    <section class="download-cta" id="download">
+        <div class="download-inner">
+            <div class="download-left">
+                <div class="download-icon">
+                    <div class="logo">
+                        <img src="img/nodusv1.ico" alt="Logo NODUS" class="logo-ico-app">
+                    </div>
+                </div>
+                <div style="display:flex; flex-direction:column; margin-top: 40px; justify-content:center; flex:1;">
+                    <h3>Descarga <span class="pink">NODUS</span> y comienza a conectar</h3>
+                    <p>Disponible en iOS y Android</p>
+                    <div class="store-row-download">
+                        <!-- Google Play -->
+                        <div class="store-btn">
+                            <img class="store-icon-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg"
+                                alt="Google Play">
+                            <div class="lines">
+                                <span class="top">DISPONIBLE EN</span>
+                                <span class="bottom">Google Play</span>
+                            </div>
+                        </div>
+                        <!-- App Store -->
+                        <div class="store-btn">
+                            <img class="store-icon-img"
+                                src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg"
+                                alt="App Store">
+                            <div class="lines">
+                                <span class="top">Consíguelo en el</span>
+                                <span class="bottom">App Store</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="download-right">
+                <div class="qr-box">
+                    <svg viewBox="0 0 100 100" width="100%" height="100%">
+                        <rect width="100" height="100" fill="#fff" />
+                        <g fill="#08080b">
+                            <rect x="6" y="6" width="24" height="24" />
+                            <rect x="12" y="12" width="12" height="12" fill="#fff" />
+                            <rect x="16" y="16" width="4" height="4" />
+                            <rect x="70" y="6" width="24" height="24" />
+                            <rect x="76" y="12" width="12" height="12" fill="#fff" />
+                            <rect x="80" y="16" width="4" height="4" />
+                            <rect x="6" y="70" width="24" height="24" />
+                            <rect x="12" y="76" width="12" height="12" fill="#fff" />
+                            <rect x="16" y="80" width="4" height="4" />
+                            <rect x="40" y="6" width="6" height="6" />
+                            <rect x="50" y="6" width="6" height="6" />
+                            <rect x="40" y="16" width="6" height="6" />
+                            <rect x="60" y="40" width="6" height="6" />
+                            <rect x="70" y="40" width="6" height="6" />
+                            <rect x="80" y="46" width="6" height="6" />
+                            <rect x="40" y="40" width="6" height="6" />
+                            <rect x="46" y="50" width="6" height="6" />
+                            <rect x="40" y="60" width="6" height="6" />
+                            <rect x="60" y="60" width="6" height="6" />
+                            <rect x="70" y="70" width="6" height="6" />
+                            <rect x="80" y="80" width="6" height="6" />
+                            <rect x="60" y="80" width="6" height="6" />
+                            <rect x="40" y="80" width="6" height="6" />
+                            <rect x="50" y="70" width="6" height="6" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="qr-caption">Escanea para descargar</div>
+            </div>
+        </div>
+    </section>
+    <!-- pie de pagina -->
+    <footer>
+        <div class="wrap">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <h1>N</h1><img src="img/nodusv1.ico" alt="Logo NODUS" class="logo-ico">
+                        <h1>DUS</h1>
+                    </div>
+                    <h4>Un punto De Encuentro</h4>
+                    <p>Conecta. Planea. Comparte.</p>
+                </div>
+                <div class="footer-col">
+                    <h5>Producto</h5>
+                    <ul>
+                        <li><a href="#">Características</a></li>
+                        <li><a href="#">Seguridad</a></li>
+                        <li><a href="#">Nodos</a></li>
+                        <li><a href="#">Actualizaciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Compañía</h5>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Prensa</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Soporte</h5>
+                    <ul>
+                        <li><a href="#">Centro de ayuda</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Síguenos</h5>
+                    <div class="social-row">
+                        <a href="https://www.instagram.com/appnodus/" class="social-circle instagram" title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@appnodus" class="social-circle tiktok" title="TikTok">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a href="#" class="social-circle facebook" title="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://x.com/Appnodus" class="social-circle x-twitter" title="X (Twitter)">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.threads.com/@appnodus" class="social-circle threads" title="Threads">
+                            <i class="fa-brands fa-threads"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">© 2026 NODUS. Todos los derechos reservados.</div>
+        </div>
+    </footer>
+
+
+</body>
+
+<script src="testimonials.js" defer></script>
+
+</html>
