@@ -57,8 +57,8 @@ graph TD
 
 La aplicación está disponible para plataformas **iOS** y **Android**.
 
-* **Google Play Store:** *(Enlace de descarga)*
-* **Apple App Store:** *(Enlace de descarga)*
+* **Google Play Store:** *(Enlace de descarga)* PROXIMAMENTE
+* **Apple App Store:** *(Enlace de descarga)* PROXIMAMENTE
 
 ---
 
