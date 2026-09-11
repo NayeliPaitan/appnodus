@@ -9,8 +9,6 @@
 
 A continuación se presentan las secciones principales de la aplicación y la plataforma. 
 
-> *Nota: Reemplaza las rutas de las imágenes (`docs/screenshots/...`) por tus propios archivos de captura.*
-
 | Sección / Pantalla | Vista Previa | Descripción |
 | :--- | :---: | :--- |
 | **Página Principal (Hero Section)** | ![Hero Section](docs/screenshots/01-hero-section.png) | Presentación general de la plataforma con badges de tiendas (App Store / Google Play) y métricas de la comunidad. |
